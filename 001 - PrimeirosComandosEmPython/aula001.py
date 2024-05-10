@@ -10,7 +10,6 @@ resposta = requests.get(url)
 data = resposta.json()
 # exibindo as informações com o comando print (lembrem-se do Hello world)
 print(data)
-
 # variável chamada valor secreto que armazena uma tecnologia aleatória da lista
 valor_secreto = random.choice(data)
 # variável para armazenar apenas a palavra
